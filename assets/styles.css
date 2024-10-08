@@ -1,0 +1,32 @@
+:root {
+    --darkgreen: #00ff07;
+    --lightgreen: #00ff00;
+    --yellow: #E2C444;
+    --orange: #ff9100;
+    --brown: #ff4300;
+    --blue: #00a5ff;
+    --lightgrey: #ff0000;
+}
+
+/* Basic Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.hero {
+    background-image: url('../img/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#projects .card {
+    transition: transform 0.3s;
+}
+
+#projects .card:hover {
+    transform: scale(1.05);
+}
